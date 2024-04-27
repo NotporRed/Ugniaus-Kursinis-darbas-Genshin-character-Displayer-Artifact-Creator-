@@ -423,9 +423,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 50,
                 625,
                 75,
@@ -434,9 +432,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 135,
                 625,
                 75,
@@ -456,9 +452,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 305,
                 625,
                 75,
@@ -467,9 +461,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 135,
                 550,
                 75,
@@ -478,9 +470,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 220,
                 550,
                 75,
@@ -489,9 +479,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 475,
                 650,
                 330,
@@ -500,9 +488,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 475,
                 300,
                 330,
@@ -511,9 +497,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 50,
                 550,
                 75,
@@ -522,9 +506,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 305,
                 550,
                 75,
@@ -533,9 +515,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 825,
                 650,
                 75,
@@ -544,9 +524,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 905,
                 650,
                 75,
@@ -555,9 +533,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 985,
                 650,
                 75,
@@ -566,9 +542,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 1065,
                 650,
                 75,
@@ -577,9 +551,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 1145,
                 650,
                 75,
@@ -588,9 +560,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,36),
                 1145,
                 550,
                 75,
@@ -599,9 +569,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,
-                 230,
-                 236),
+                (230,230,236),
                 1145,
                 450,
                 75,
