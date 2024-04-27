@@ -560,7 +560,7 @@ class Character_screen():
         self.button.append(
             Button(
                 self.display,
-                (230,230,36),
+                (230,230,236),
                 1145,
                 550,
                 75,
