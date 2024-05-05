@@ -10,13 +10,16 @@ It's main purpose is to help you see your characters information at diffrent lev
 To start all you just need to do is to run the _main.py_ file  
 
 1. When the progam has started you will be able to select the character that you want to choose ***(currently characters go up to version 4.5)***
-![Main screen](https://media.discordapp.net/attachments/790862943239405589/1236677299156553870/image.png?ex=6638e0fc&is=66378f7c&hm=459f245b3db486b54bd1bcdb51ac2e783161ea5aaffcf76e66e0b98d8ecc671d&=&format=webp&quality=lossless)
-2. To find a character you want:
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/17b2220a-3346-4164-a06b-27720bc4bdb4)
+
+3. To find a character you want:
    * Press arrows on either sides to cycle through the list.
    * Type their name, this will filter the list. (**spaces included!**)
-![Searching for characters](https://media.discordapp.net/attachments/790862943239405589/1236678351310290985/image.png?ex=6638e1f7&is=66379077&hm=00d543c8656924d796017a0f4987d5b3590cceaea4742b3d89b9c170a56a8bd6&=&format=webp&quality=lossless)
-3. Pressing their name will open up the sellection sceen, if you want to change character, press *del* key on your keyboard.
-![Character screen](https://media.discordapp.net/attachments/790862943239405589/1236679251869040640/image.png?ex=6638e2ce&is=6637914e&hm=b0b445fa78dcce246ff30f2cf966eddc88eb344e965dfe8902c7278b43b29893&=&format=webp&quality=lossless)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/9ac5dd89-10e3-4a03-b183-9de8e4496965)
+
+4. Pressing their name will open up the sellection sceen, if you want to change character, press *del* key on your keyboard.
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/75711291-ae9c-4bee-aaf4-b0d220b054d1)
+
    * Top buttons set to everything to maximum or minimum. The two buttons in the middle change characrters ascention.
    * bottom four buttons level up/down the character going from -10, -1, +1, 10.
    * Pressing the **"Change Weapon"** button will lead you to a similar selection, but this time with weapons. (***weapons are automaticly level 90***)
@@ -26,48 +29,59 @@ To start all you just need to do is to run the _main.py_ file
 
 ## Body/Analysis 
 
-The code is written in python using OOP principals.
+The code is written in python using OOP principles.
 
 ### The for pillars of OOP can be found here:
 
 #### Polymorphism
 
 - As we can see there's one button class that creates all the buttons around the file.  
-![Button Class](https://media.discordapp.net/attachments/790862943239405589/1236686949075521547/image.png?ex=6638e9f9&is=66379879&hm=3acffb3248fa9cad3cef1e1c3afad0515e4c7f99970812a6851b066f0f5c5347&=&format=webp&quality=lossless)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/aef4b7ef-f919-4e4a-b05b-2cc640821af5)
+
 - However the buttons commit different functions beacause they are created using different veriable.  
-![Two Buttons](https://cdn.discordapp.com/attachments/790862943239405589/1236687776699908210/image.png?ex=6638eabe&is=6637993e&hm=1edd44e5b221340fc57cd63a9edde084b3ac6b018c58a48691bf7d5dc0e955c0&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/495f2ab6-7b0b-4a40-804b-e9a12d9e59dd)
+
 - That means their click function becomes seperate even if they are created from the same class.  
-![Buttons Calling](https://cdn.discordapp.com/attachments/790862943239405589/1236688614214074439/image.png?ex=6638eb86&is=66379a06&hm=284cf6250196a9b5b0df2c85cc453ec1c666afd9ba0392a69d1c174f300a4fc7&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/0bfd2da6-02f9-4366-85ba-fb56e65b0d69)
+
 
 #### Abstraction and Inheritances
 
 - We can see that in this scenario class loder is an abstract class with three methods  
-  ![Loader Class](https://cdn.discordapp.com/attachments/790862943239405589/1236691372711608331/image.png?ex=6638ee17&is=66379c97&hm=d1ba24c0520853f39394434041f39b54866bca6af7a643d6314ca615836a6aca&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/e0e57036-81cd-4f5c-bdbc-ea831bd93778)
+
 - Since all three classes are children of Loader they inherit the classes and overide them if they use it
-  ![Loader Children](https://cdn.discordapp.com/attachments/790862943239405589/1236692990047555636/image.png?ex=6638ef99&is=66379e19&hm=af1283445bbaca1f82032ea3f99dc593c46d4b5bb357f0cd2806a9b800c600a1&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/c1bf4e43-cc89-44ad-8dd9-38fd09e5c761)
+
   
 ### Design Patterns
 
 #### Factory
 
 - Since I needed to generate 5 artifacts I created a factory that would do that job  
-![Factory](https://cdn.discordapp.com/attachments/790862943239405589/1236696069992349736/image.png?ex=6638f277&is=6637a0f7&hm=16cc956d0f75ef498bbb6c334e0c5b97950a6959621e90bea2dc4494735db716&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/f33034aa-1aa7-431b-b624-003f5769826d)
+
 - It calls to artifact class to do generate it  
-![Artifact](https://cdn.discordapp.com/attachments/790862943239405589/1236696397622022234/image.png?ex=6638f2c5&is=6637a145&hm=28db39204b62017982e9731159d8a818da5583c05eb56d526c6d23f5fdaf00ac&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/debbf848-c667-437e-ba0e-1918c6030217)
+
 - This makes it so I would only need to call factory with the position without any trouble  
-![Generating Artifact](https://cdn.discordapp.com/attachments/790862943239405589/1236696920160862380/image.png?ex=6638f342&is=6637a1c2&hm=0e199187fe58fe365859f97e3dc96b3f7cf15459b4b2ebc35592b990941ec61f&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/394a7a5c-72de-4d40-b280-e5ab29cb593f)
+
 
 #### Decorator
 
 - From the start there was an issue with the program constantly reading file even though it didn't need to, thats why I created this decorator:
-![Decorator](https://cdn.discordapp.com/attachments/790862943239405589/1236697624669720720/image.png?ex=6638f3ea&is=6637a26a&hm=f45a621ab685ced73cd1a96b01ac156dc6b7395668ea508557c6bd559ffae47d&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/e906cf52-0ec2-4329-a82e-ce60c681779d)
+
 - whith this decorator on all three classes that have can read excel first check if they already read the file
-![Decorator in use](https://cdn.discordapp.com/attachments/790862943239405589/1236697665056800939/image.png?ex=6638f3f4&is=6637a274&hm=0fbb7bd6636a5fcd92de471e0ca835b23da6416a764231e9112480e30762ef77&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/00955a01-2376-4228-8828-2edfeb2341fa)
+
 
 ### Reading & Writting to File
 
 - reading is mainly done from excel files  
-![Reading](https://cdn.discordapp.com/attachments/790862943239405589/1236705045102334053/image.png?ex=6638fad3&is=6637a953&hm=eced67ddab54270a537fc0529162d59d942d89f56173053a4ee9c6ef3fcef2b9&)
+![image](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/c3050c30-4f53-4142-b402-e3e80aaac6dc)
+
 
 - writing is only done with artifacts  
 ![Writting](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/1d182634-897b-4123-a4aa-7753d5325a47)
@@ -85,7 +99,7 @@ For this reason I am very delighted by the results of the search.
 
 - The character stat display screen even if not pretty works well and displays stats that sometimes are annoying to find online and even if the artifacts are not fully correct they give you a nice picture of your characters build + can let you see if your character meets the requirements set by [KQM](https://keqingmains.com).
 
-## Conclussion
+## Conclusion
 
 In this project I not only learned how to impliment OOP knowledge into a program, but also how to read and write into excel files, work with py games to create a "game". Even if results didn't fully reach my expectations I am motivated to someday try and make it better or to create something completely new.
 
