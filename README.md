@@ -31,6 +31,7 @@ The code is written in python using OOP principals.
 ### The for pillars of OOP can be found here:
 
 #### Polymorphism
+
 - As we can see there's one button class that creates all the buttons around the file.  
 ![Button Class](https://media.discordapp.net/attachments/790862943239405589/1236686949075521547/image.png?ex=6638e9f9&is=66379879&hm=3acffb3248fa9cad3cef1e1c3afad0515e4c7f99970812a6851b066f0f5c5347&=&format=webp&quality=lossless)
 - However the buttons commit different functions beacause they are created using different veriable.  
@@ -39,6 +40,7 @@ The code is written in python using OOP principals.
 ![Buttons Calling](https://cdn.discordapp.com/attachments/790862943239405589/1236688614214074439/image.png?ex=6638eb86&is=66379a06&hm=284cf6250196a9b5b0df2c85cc453ec1c666afd9ba0392a69d1c174f300a4fc7&)
 
 #### Abstraction and Inheritances
+
 - We can see that in this scenario class loder is an abstract class with three methods  
   ![Loader Class](https://cdn.discordapp.com/attachments/790862943239405589/1236691372711608331/image.png?ex=6638ee17&is=66379c97&hm=d1ba24c0520853f39394434041f39b54866bca6af7a643d6314ca615836a6aca&)
 - Since all three classes are children of Loader they inherit the classes and overide them if they use it
@@ -47,6 +49,7 @@ The code is written in python using OOP principals.
 ### Design Patterns
 
 #### Factory
+
 - Since I needed to generate 5 artifacts I created a factory that would do that job  
 ![Factory](https://cdn.discordapp.com/attachments/790862943239405589/1236696069992349736/image.png?ex=6638f277&is=6637a0f7&hm=16cc956d0f75ef498bbb6c334e0c5b97950a6959621e90bea2dc4494735db716&)
 - It calls to artifact class to do generate it  
@@ -55,10 +58,20 @@ The code is written in python using OOP principals.
 ![Generating Artifact](https://cdn.discordapp.com/attachments/790862943239405589/1236696920160862380/image.png?ex=6638f342&is=6637a1c2&hm=0e199187fe58fe365859f97e3dc96b3f7cf15459b4b2ebc35592b990941ec61f&)
 
 #### Decorator
+
 - From the start there was an issue with the program constantly reading file even though it didn't need to, thats why I created this decorator:
 ![Decorator](https://cdn.discordapp.com/attachments/790862943239405589/1236697624669720720/image.png?ex=6638f3ea&is=6637a26a&hm=f45a621ab685ced73cd1a96b01ac156dc6b7395668ea508557c6bd559ffae47d&)
 - whith this decorator on all three classes that have can read excel first check if they already read the file
 ![Decorator in use](https://cdn.discordapp.com/attachments/790862943239405589/1236697665056800939/image.png?ex=6638f3f4&is=6637a274&hm=0fbb7bd6636a5fcd92de471e0ca835b23da6416a764231e9112480e30762ef77&)
+
+### Reading & Writting to File
+
+- reading is mainly done from excel files  
+![Reading](https://cdn.discordapp.com/attachments/790862943239405589/1236705045102334053/image.png?ex=6638fad3&is=6637a953&hm=eced67ddab54270a537fc0529162d59d942d89f56173053a4ee9c6ef3fcef2b9&)
+
+- writing is only done with artifacts  
+![Writting](https://github.com/NotporRed/Ugniaus-Kursinis-darbas-Genshin-character-Displayer-Artifact-Creator-/assets/167587196/1d182634-897b-4123-a4aa-7753d5325a47)
+
 
 ## Results and Summary
 
